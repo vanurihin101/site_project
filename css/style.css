@@ -1,6 +1,4 @@
 html, body {
-	width: 1600px;
-	height: 3105px;
 	padding: 0;
 	margin: 0;
 	background-color: #FFFFFF;
@@ -13,7 +11,7 @@ a {
 	margin: 0 auto;
 }
 #page-wrapper {
-	margin-top: 100px;
+	// margin-top: 100px;
 }
 
 /*PRIMARY-MENU*/
@@ -51,6 +49,7 @@ a {
 #logo, #adress, #number {
 	display: inline-block;
 	padding: 25px;
+	width: 18%;
 }
 #logo_information {
 	text-align: center;
@@ -68,4 +67,13 @@ a {
 }
 #number p {
 	color: #000000;
+	font-size: 30px;
+}
+#slider {
+	text-align: center;
+}
+#form_background {
+	margin-top: -170px;
+    margin-bottom: 50px;
+
 }
