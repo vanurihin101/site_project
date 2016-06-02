@@ -66,11 +66,12 @@ a {
 	height: 50px;
 	padding-left: 15px;
 	padding-right: 15px;
+	line-height: 50px;
 }
 #number {
 	color: #fff;
 	font-size: 22px;
-	line-height: 50px;
+
 }
 #number p {
 	color: #000000;
@@ -118,3 +119,43 @@ a {
 	background-color: #FF8400;
 	font-weight: bold;
 }
+#content_left {
+	width: 50%;
+    margin-left: -25px;
+}
+.content_left_img {
+	float: right;
+	margin-left: 10px;
+}
+.content_right_text {
+	float: right;
+    text-align: left;
+    margin: 13px;
+    margin-top: -12px;
+    line-height: 33px;
+}
+.strong {
+	font-weight: bold;
+	font-size: 22px;
+}
+.button_a {
+	background: #FF8400;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 15px;
+    color: white;
+    font-size: 22px;
+}
+.button_a a:hover {
+	background-color: #fff;
+	color: #333;
+}
+.button_a_red {
+	background: #ff4e00;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 15px;
+    color: white;
+    font-size: 22px;
