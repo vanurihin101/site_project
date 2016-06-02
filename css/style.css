@@ -1,3 +1,10 @@
+@font-face {
+    font-family: PFDinTextCondPro;
+    src: url(font/pfdintextcondpro-regular.ttf);
+}
+* {
+	font-family: PFDinTextCondPro;
+}
 html, body {
 	padding: 0;
 	margin: 0;
@@ -70,10 +77,44 @@ a {
 	font-size: 30px;
 }
 #slider {
+	background-image: url(images/slider.png);
 	text-align: center;
 }
 #form_background {
-	margin-top: -170px;
+	margin-top: -188px;
     margin-bottom: 50px;
-
+}
+#form {
+	margin-top: -206px;
+}
+#slider_h2 {
+	color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 23px;
+    font-family: PFDinTextCondPro;
+}
+#slider_p {
+	margin-left: -44px;
+    margin-top: -8px;
+}
+#order {
+	color: #FFFFFF;
+	text-align: right;
+	margin-right: 539px;
+    margin-top: 27px;
+}
+#order_a {
+	color: #FFFFFF;
+	font-family: PFDinTextCondPro;
+}
+.form {
+	padding: 5px;
+    padding-right: 4px;
+    margin-right: -1px;
+    font-size: 17px;
+}
+#form_submit {
+	background-color: #FF8400;
+	font-weight: bold;
 }
