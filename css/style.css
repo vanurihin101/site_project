@@ -121,11 +121,13 @@ a {
 }
 #content_left {
 	width: 50%;
-    margin-left: -25px;
+    margin-left: -27px;
+    padding-top: 19px;
 }
 .content_left_img {
 	float: right;
 	margin-left: 10px;
+	padding-bottom: 36px;
 }
 .content_right_text {
 	float: right;
@@ -159,3 +161,4 @@ a {
     padding: 0px 15px;
     color: white;
     font-size: 22px;
+}
