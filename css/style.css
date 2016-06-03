@@ -123,6 +123,7 @@ a {
 	width: 50%;
     margin-left: -27px;
     padding-top: 19px;
+    float: left;
 }
 .content_left_img {
 	float: right;
@@ -161,4 +162,26 @@ a {
     padding: 0px 15px;
     color: white;
     font-size: 22px;
+}
+#content {
+	text-align: center;
+	margin-left: 195px;
+}
+#content_right {
+	width: 50%;
+	float: right;
+}
+.content_right_animation {
+	padding: 10px;
+    line-height: 33px;
+    margin-top: -13px;
+    margin-left: -437px;
+    padding-bottom: 62px;
+}
+#up {
+	float: center;
+}
+.content_right_animation_p {
+	font-weight: 400;
+    font-size: 31px;
 }
