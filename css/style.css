@@ -219,13 +219,13 @@ a {
 }
 .customers {
 	background-color: #FBBF29;
-	margin: 10px;
 }
 .customers_h3 {
 	text-align: center;
     font-size: 34px;
     font-weight: normal;
     margin: 0;
+    padding: 21px;
 }
 .customers_p {
 	text-align: center;
@@ -248,4 +248,23 @@ a {
     text-decoration: none;
     font-size: 19px;
     margin: 22px;
+}
+.partners {
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+}
+.partners_logo {
+	text-align: center;
+    width: 100%;
+}
+.partners_logo_div {
+	display: inline-block;
+	text-align: center;
+    width: 19%;
+    margin: 21px;
+
+}
+.partners_logo_img {
+	text-align: center;
 }
