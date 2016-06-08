@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var images = ["Layer 38.png", "Layer 39.png"];
+    var images = ["images/Layer38.png", "images/Layer39.png"];
     var currentImage = 0;
     $("#img").attr('src', images[currentImage]);
     $("#up").click(function (){
