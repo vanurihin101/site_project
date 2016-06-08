@@ -14,4 +14,16 @@ $(document).ready(function() {
             $("#img").attr('src', images[currentImage]);
         }
     });
+    $("#up2").click(function (){
+        if (currentImage !== 0) {
+            currentImage--;
+            $("#img2").attr('src', images[currentImage]);
+        }
+    });
+    $("#down2").click(function (){
+        if (currentImage != images.length - 1) {
+            currentImage++;
+            $("#img2").attr('src', images[currentImage]);
+        }
+    });
 });

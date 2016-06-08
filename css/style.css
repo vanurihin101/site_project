@@ -254,6 +254,7 @@ a {
 .partners_logo {
     text-align: center;
     width: 100%;
+    padding: 17px;
 }
 .partners_logo_div {
     display: inline-block;
