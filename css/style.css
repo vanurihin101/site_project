@@ -186,7 +186,6 @@ a {
 .gosts {
     background-color: rgb(43, 42, 40);
     width: 100%;
-    padding: 14px;
     height: 569px;
 }
 .mediamix {
@@ -269,10 +268,11 @@ a {
 #footer {
     background-color: black;
     width: 100%;
-    padding: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     height: 71px;
     position: center;
-    padding-left: 13%;
+    // padding-left: 13%;
 }
 .footer_block {
     float: left;
