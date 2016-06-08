@@ -235,7 +235,7 @@ a {
 .customers_menu > ul {
 	text-align: center;
 }
-.customers_menu > ul >li {
+.customers_menu > ul > li {
 	display: inline-block;
     list-style: none;
     font-size: 22px;
@@ -258,8 +258,8 @@ a {
 .partners_logo_div {
 	display: inline-block;
 	text-align: center;
-    width: 19%;
-    margin: 21px;
+	width: 19%;
+	margin: 21px;
 
 }
 .partners_logo_img {
