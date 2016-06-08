@@ -217,3 +217,35 @@ a {
 .gost-img {
 	padding-bottom: 42px;
 }
+.customers {
+	background-color: #FBBF29;
+	margin: 10px;
+}
+.customers_h3 {
+	text-align: center;
+    font-size: 34px;
+    font-weight: normal;
+    margin: 0;
+}
+.customers_p {
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+}
+.customers_menu {
+    height: auto;
+}
+.customers_menu > ul {
+	text-align: center;
+}
+.customers_menu > ul >li {
+	display: inline-block;
+    list-style: none;
+    font-size: 22px;
+}
+.customers_menu > ul > li > a {
+	color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 22px;
+}
