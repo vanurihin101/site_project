@@ -17,9 +17,6 @@ a {
 	width: 100%;
 	margin: 0 auto;
 }
-#page-wrapper {
-	// margin-top: 100px;
-}
 
 /*PRIMARY-MENU*/
 
@@ -267,4 +264,22 @@ a {
 }
 .partners_logo_img {
 	text-align: center;
+}
+#footer {
+	background-color: black;
+    width: 100%;
+    padding: 14px;
+    height: 71px;
+    position: center;
+    padding-left: 13%;
+}
+.footer_block {
+	float: left;
+	text-align: center;
+	color: white;
+	width: 15%;
+}
+.footer_block > a {
+	color: white;
+    padding-top: 10px;
 }
